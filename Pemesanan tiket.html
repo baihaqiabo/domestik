@@ -1,0 +1,312 @@
+<html>
+<body>
+<form name="pesan">
+
+<table border=1 width="100%">
+<tr>
+		<td>
+		<table align="center">
+			<tr>
+				<td align="center" colspan=7><font style="Cambria" size=6>Penerbangan Domestik</font></td>
+			</tr>
+			<tr></tr>
+			<tr>
+				<td>Kota Asal :</td>
+				<td></td>
+				<td>Kota Tujuan :</td>
+			</tr>
+				
+			<tr>
+				<td><select name="ka">
+				<option>Pilih</option>
+				<option>Aceh</option>
+				<option>Ambon</option>
+				<option>Balik Papan</option>
+				<option>Bandung</option>
+				<option>Denpasar</option>
+				<option>Jakarta</option>
+				<option>Jayapura</option>
+				<option>Makasar</option>
+				<option>Menado</option>
+				<option>Medan</option>
+				<option>Semarang</option>
+				<option>Surabaya</option>
+				<option>Sumbawa</option>
+				</select></td>
+			
+				<td></td>
+				
+				<td><select name="kt">
+				<option>Pilih</option>
+				<option>Aceh</option>
+				<option>Ambon</option>
+				<option>Balik Papan</option>
+				<option>Bandung</option>
+				<option>Denpasar</option>
+				<option>Jakarta</option>
+				<option>Jayapura</option>
+				<option>Makasar</option>
+				<option>Menado</option>
+				<option>Medan</option>
+				<option>Semarang</option>
+				<option>Surabaya</option>
+				<option>Sumbawa</option>
+				</select></td>
+			</tr>
+			<tr>	
+				<td>Tanggal Berangkat :</td>
+				<td></td>
+				<td>Jenis Perjalanan :</td>
+				
+			</tr>
+			<tr>
+				<td><select name="tb">
+				<option>Pilih</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+				<option>7</option>
+				<option>8</option>
+				<option>9</option>
+				<option>10</option>
+				<option>11</option>
+				<option>12</option>
+				<option>13</option>
+				<option>14</option>
+				<option>15</option>
+				<option>16</option>
+				<option>17</option>
+				<option>18</option>
+				<option>19</option>
+				<option>20</option>
+				<option>21</option>
+				<option>22</option>
+				<option>23</option>
+				<option>24</option>
+				<option>25</option>
+				<option>26</option>
+				<option>27</option>
+				<option>28</option>
+				<option>29</option>
+				<option>30</option>
+				</select></td>
+				<td></td>
+				<td><input type="radio" name="jp">Sekali Jalan</td>
+				<td><input type="radio" name="jp">Pulang Pergi</td>
+			</tr>
+			
+			<tr>
+				<td>Tanggal Pulang :</td>
+			</tr>
+			<tr>
+				<td><select name="tp">
+				<option>Pilih</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+				<option>7</option>
+				<option>8</option>
+				<option>9</option>
+				<option>10</option>
+				<option>11</option>
+				<option>12</option>
+				<option>13</option>
+				<option>14</option>
+				<option>15</option>
+				<option>16</option>
+				<option>17</option>
+				<option>18</option>
+				<option>19</option>
+				<option>20</option>
+				<option>21</option>
+				<option>22</option>
+				<option>23</option>
+				<option>24</option>
+				<option>25</option>
+				<option>26</option>
+				<option>27</option>
+				<option>28</option>
+				<option>29</option>
+				<option>30</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>Jumlah Penumpang :</td>
+				<td></td>		
+			</tr>
+			<tr>
+				<td>Dewasa: <select name="d">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+				<option>7</option>
+				<option>8</option>
+				<option>9</option>
+				</select></td>
+				<td></td>
+				<td>Anak : <select name="a">
+				<option>0</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+				<option>7</option>
+				<option>8</option>
+				<option>9</option>
+				</select></td>		
+			</tr>
+			<tr>
+				<td>Kelas Layanan :</td>
+			</tr>
+			<tr>
+				<td><select name="kl">
+				<option>Pilih</option>
+				<option>Ekonomi</option>
+				<option>Eksekutif</option>
+				</select></td>
+			</tr>
+			<tr>
+			<td align="center" colspan=7><input type="button" value="Pesan Sekarang" onclick="book()"><input type="reset" value="Cancel"></td>
+			</tr>
+		</table>
+		</td>		
+</tr>
+</table>
+<table border=1 width="100%">
+<tr>
+		<td>
+		<table align="center">
+			<tr>
+				<td align="center" colspan=7><font face="calibri" size=5>Penerbangan Domestik</font></td>
+			</tr>
+			
+			<tr>
+				<td>Kota Asal</td>
+				<td>:</td>
+				<td><input type="text" name="tka"></td>
+			</tr>
+			<tr>
+				<td>Kota Tujuan </td>
+				<td>:</td>
+				<td><input type="text" name="tkt"></td>
+			</tr>
+			<tr>
+				<td>Tanggal Berangkat</td>
+				<td>:</td>
+				<td><input type="text" name="ttb" size=5> Mei 2016</td>
+			</tr>
+			<tr>
+				<td>Jenis Perjalanan </td>
+				<td>:</td>
+				<td><input type="text" name="tjp"></td>
+			</tr>
+			
+			<tr>
+				<td>Tanggal Pulang</td>
+				<td>:</td>
+				<td><input type="text" name="ttp" size=5> Mei 2016</td>
+			</tr>
+			<tr>
+				<td>Dewasa</td>
+				<td>:</td>
+				<td><input type="text" name="td"></td>
+			</tr>
+			<tr>
+				<td>Anak</td>
+				<td>:</td>
+				<td><input type="text" name="ta"></td>
+			</tr>
+			<tr>
+				<td>Kelas Layanan</td>
+				<td>:</td>
+				<td><input type="text" name="tkl"></td>
+			</tr>
+			<tr>
+				<td align="center" colspan=7>
+			Kode Verifikasi Anda<br>(Ingat kode verfikasi ini untuk memeriksa status pemesanan tiket anda)<br>
+				<input type="text" name="get" size=30></td>
+			</tr>
+		</table>
+		</td>
+		
+</tr>
+</table>
+<br>
+</form>
+<script language="javascript">
+function book()
+{
+if (document.pesan.jp[0].checked==true)
+{
+ijp="Sekali Jalan";
+}
+else if (document.pesan.jp[1].checked==true)
+{
+ijp="Pulang Pergi";
+}
+else
+{
+alert("Anda harus memasukan akun anda");
+}
+document.pesan.tjp.value=ijp;
+
+var asal=(document.pesan.ka.value);
+document.pesan.tka.value=asal;
+
+var berangkat=(document.pesan.tb.value);
+document.pesan.ttb.value=berangkat;
+
+var tujuan=(document.pesan.kt.value);
+document.pesan.tkt.value=tujuan;
+
+var pulang=(document.pesan.tp.value);
+document.pesan.ttp.value=pulang;
+
+var dewasa=(document.pesan.d.value);
+document.pesan.td.value=dewasa;
+
+var anak=(document.pesan.a.value);
+document.pesan.ta.value=anak;
+
+var kelas1=(document.pesan.kl.value);
+document.pesan.tkl.value=kelas1;
+
+var anak=(document.pesan.a.value);
+var kelas2=(document.pesan.kl.value);
+if ((kelas2=="Eksekutif") && (anak>1))
+{
+service=20040010;
+}
+else if ((kelas2=="Eksekutif") && (anak<=1))
+{
+service=20050010;
+}
+else if ((kelas2=="Ekonomi") && (anak>1))
+{
+service=20040020;
+}
+else if ((kelas2=="Ekonomi") && (anak<=1))
+{
+service=20050020;
+}
+else
+{
+service="-"
+}
+document.pesan.get.value=service;
+}
+
+</script>
+</body>
+</html>
